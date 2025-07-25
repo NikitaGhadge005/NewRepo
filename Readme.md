@@ -24,3 +24,5 @@
 ### Packages ###
 
 *nodemon =nodemon is a development tool for Node.js that automatically restarts your server or app when it detects changes in your source files.
+*dotenv = dotenv is a Node.js package that loads environment variables from a .env file into process.env in your app.
+*Prettier = Prettier is a code formatter — a tool that automatically formats your code to follow consistent style rules (indentation, quotes, spacing, etc.).
