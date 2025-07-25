@@ -5,6 +5,20 @@
 
 
 
+## File Structrure ##
+
+-> /src
+      
+      -  *index.js - DB connection     *app.js - config,cookies,urlencode      *constants.js - DB name , enum
+      - *db
+      - *models
+      - *controllers
+      - *middleware
+      - *routes
+      - *utils
+      - *more(depends)
+
+
 
 
 ### Packages ###
