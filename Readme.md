@@ -63,13 +63,19 @@
      app.listen(...);         // Start Express server
 
 
+
+
+
+
 ### Utils ###
 
-   * asyncHandler = asyncHandler is a higher-order function used in Express.js to handle errors in asynchronous route handlers without using try/catch blocks in every route.
+    * asyncHandler = asyncHandler is a higher-order function used in Express.js to handle errors in asynchronous route handlers without using try/catch blocks in every route.
+ 
+    * ApiError = ApiError is a custom error class that extends the built-in Error class in JavaScript. It is used to send structured and meaningful error responses in Express.js applications.
+ 
+    * ApiResponse = ApiResponse is a custom class used to send standardized success responses from an API.
 
-   * ApiError = ApiError is a custom error class that extends the built-in Error class in JavaScript. It is used to send structured and meaningful error responses in Express.js applications.
 
-   * ApiResponse = ApiResponse is a custom class used to send standardized success responses from an API.
 
 
 
@@ -95,3 +101,26 @@
  
      *  cookie-parser=Parses cookies attached to the client request object (req.cookies) so you can easily access and use them
 
+     * mongoose-aggregate-paginate-v2 = mongoose-aggregate-paginate-v2 is an NPM package used to paginate aggregation queries in Mongoose (MongoDB ODM for Node.js). This is especially useful when you want to use MongoDB’s powerful aggregate() functionality and still need pagination support, such as for large datasets.
+
+     * bcrypt = It locks (hashes) the user’s password before saving it in the database. So even if someone hacks the database, they can’t see the real password.
+
+     * JWT = It gives the user a digital token (ID card) when they log in.This token is used to prove who you are when accessing protected pages (like dashboard).
+
+
+
+
+
+
+
+
+### Point To remember ###
+
+1. index in database 
+2. plugin
+
+
+
+### Pending ###
+
+jwt token
