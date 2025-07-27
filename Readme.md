@@ -107,7 +107,12 @@
 
      * JWT = It gives the user a digital token (ID card) when they log in.This token is used to prove who you are when accessing protected pages (like dashboard).
 
+     * cloudinary =Cloudinary is a cloud-based service that helps developers and businesses manage, optimize, and deliver media files (like images and videos) on websites and apps.
 
+
+     * multer = Multer is a Node.js middleware for handling file uploads in Express.js.It's commonly used to upload images, PDFs, or any kind of file from a frontend form to your backend server.
+      
+     * fs = fs stands for File System.It is a built-in module in Node.js that lets you interact with the file system (create, read, write, delete files, and folders) on your computer or server.   
 
 
 
