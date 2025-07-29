@@ -11,14 +11,14 @@
 
 -> /src
       
-      -  *index.js - DB connection     *app.js - config,cookies,urlencode      *constants.js - DB name , enum
-      - *db
-      - *models
-      - *controllers
-      - *middleware
-      - *routes
-      - *utils
-      - *more(depends)
+      - * index.js - DB connection     *app.js - config,cookies,urlencode      *constants.js - DB name , enum
+      - * db - The db folder in a Node.js or Express.js project typically contains code related to connecting and managing the database (like MongoDB, PostgreSQL, etc.).
+      - * models - A Model defines the structure of your data in MongoDB using Mongoose.
+      - * controllers - Controllers contain the logic of what should happen when a user hits a route.
+      - * middleware - Middleware is a function that runs between receiving a request and sending a response.
+      - * routes - Routes decide what to do when a user visits a specific URL.
+      - * utils - Utils (short for Utilities) are helper functions or reusable pieces of logic that can be used throughout your application to avoid repeating code.
+      - * more(depends)
 
 
 
